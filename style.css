@@ -27,7 +27,6 @@ header {
     width: 100%;
     height: 100%;
     transform: rotateZ(-90deg);
-    image-orientation: from-image;
 }
 
 h1 {
