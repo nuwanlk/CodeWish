@@ -4,11 +4,11 @@
 }
 
 body {
-    background-color: #071e3d;
+    background-color: #1e2a78;
 }
 
 header {
-    background-color: #ff304f;
+    background-color: #ff1f5a;
     height: 9px;
     display: block;
 }
@@ -34,7 +34,7 @@ h1 {
     font-size: 36px;
     font-weight: 200;
     line-height: 32.4px;
-    color: #a7ff83;
+    color: #ffd615;
     text-align: center;
     line-height: 3rem;
 }
@@ -66,7 +66,7 @@ li {
 }
 
 li a {
-    color: #ff304f;
+    color: #ff1f5a;
     text-decoration: none;
 }
 
@@ -74,7 +74,7 @@ footer {
     display: block;
     position: fixed;
     width: 100%;
-    color: #2f3833;
+    color: #ffffff;
     text-align: center;
     margin-bottom: 10px;
     bottom: 0;
