@@ -1,83 +1,54 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>We are here</title>
+    <title>countdown</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        p {
+            text-align: center;
+            font-size: 60px;
+            margin-top: 0px;
+        }
+    </style>
 </head>
 
 <body>
-    <header></header>
-    <div class="main">
-        <div class="div">
-            <div class="image"><img src="me.jpg" alt="me" /></div>
 
-            <h1>
-                <strong>Nuwan</strong><br /> Thisara
-            </h1>
-            <hr />
-            <p>"I am really fu*ked up with 9-5 jobs and looking for a way to start freelancing. Self learning things and reading on the internet a lot.Getting started and hello world everyday. Father to Be"</p>
-            <h4>Senior Commisioner - PAM</h4>
-            <ul>
-                <li>
-                    <a href="https://twitter.com/NuwanGalleLK" target="blank"><img class="social-icon" src="twitter.png" alt="twitter"></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/nuwanin/" target="blank"><img class="social-icon" src="instagram.png" alt="instagram"></a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/NuwanGalleLK" target="blank"><img class="social-icon" src="facebook.png" alt="facebook"></a>
-                </li>
-            </ul>
-        </div>
-        <div class="div">
-            <div class="image-thilina"><img src="thilina.jpg" alt="thilina" /></div>
+    <p id="demo"></p>
 
-            <h1>
-                <strong>Thilina</strong><br /> Liyanaarachchi
-            </h1>
-            <hr />
-            <p>"I have a real madness on computer networking. I like Technology, Gadgets and Classical Music.Self learner and currently following JS. Although I am married my wife is far away from me."</p>
-            <h4>Chief Technical Officer(Networking) - ITAS</h4>
-            <ul>
-                <li>
-                    <a href="https://twitter.com/home" target="blank"><img class="social-icon" src="twitter.png" alt="twitter"></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com" target="blank"><img class="social-icon" src="instagram.png" alt="instagram"></a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/thilina.chathuranga" target="blank"><img class="social-icon" src="facebook.png" alt="facebook"></a>
-                </li>
-            </ul>
-        </div>
-        <div class="div">
-            <div class="image-ayomi"><img src="ayomi.jpg" alt="ayomi" /></div>
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Jan 18, 2020 21:08:25").getTime();
 
-            <h1>
-                <strong>Ayomi</strong><br /> Piyathissa
-            </h1>
-            <hr />
-            <p>"I am passionate about compute hardware. I like Technology and Gadgets.I am reading for my masters degree. Looking for a honest partner who is interested in computer or tech field"</p>
-            <h4>Chief Technical Ofiicer(Hardware) - ITAS</h4>
-            <ul>
-                <li>
-                    <a href="twitter.com" target="blank"><img class="social-icon" src="twitter.png" alt="twitter"></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com" target="blank"><img class="social-icon" src="instagram.png" alt="instagram"></a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/ayomichathurika.piyatissa.1" target="blank"><img class="social-icon" src="facebook.png" alt="facebook"></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <footer>Copyright &copy; 2020 Nuwan Thisara</footer>
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Output the result in an element with id="demo"
+            document.getElementById("demo").innerHTML = days + "d " + hours + "h " +
+                minutes + "m " + seconds + "s ";
+
+            // If the count down is over, write some text
+            if (distance < 0) {
+                clearInterval(x); {
+                    document.getElementById("demo").innerHTML = window.location.href = "wish.html";
+                }
+            }
+        }, 1000);
+    </script>
+
 </body>
 
 </html>
