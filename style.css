@@ -91,16 +91,17 @@ p {
 }
 
 h4 {
-    position: relative;
+    display: inline-block;
     color: white;
     font-family: Raleway;
-    padding-left: 4rem;
+    padding-right: 2rem;
     font-style: italic;
+    float: right;
 }
 
 ul {
     text-align: center;
-    margin: 1rem;
+    margin: 2rem;
 }
 
 li {
