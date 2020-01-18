@@ -122,10 +122,19 @@ footer {
     bottom: 0;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1125px) {
     .main {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+    footer {
+        display: block;
+        position: relative;
+        width: 100%;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 10px;
+        bottom: 0;
     }
 }
 
@@ -155,6 +164,15 @@ footer {
     .main {
         display: grid;
         grid-template-columns: 1fr;
+    }
+    footer {
+        display: block;
+        position: relative;
+        width: 100%;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 10px;
+        bottom: 0;
     }
 }
 
