@@ -115,7 +115,7 @@ li a {
 
 footer {
     display: block;
-    position: fixed;
+    position: relative;
     width: 100%;
     color: #95928A;
     text-align: center;
@@ -140,10 +140,6 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-    li {
-        display: block;
-        padding: 10px;
-    }
     .image {
         display: flex;
         position: relative;
@@ -196,5 +192,5 @@ footer {
 }
 
 .social-icon {
-    width: 20%;
+    width: 18%;
 }
