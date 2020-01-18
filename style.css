@@ -4,11 +4,11 @@
 }
 
 body {
-    background-color: #071a52;
+    background-color: #071e3d;
 }
 
 header {
-    background-color: #17b978;
+    background-color: #ff304f;
     height: 9px;
     display: block;
 }
@@ -66,7 +66,7 @@ li {
 }
 
 li a {
-    color: #17b978;
+    color: #ff304f;
     text-decoration: none;
 }
 
