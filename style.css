@@ -86,11 +86,12 @@ p {
     font-family: Raleway;
     text-align: left;
     line-height: 1.5rem;
-    padding: 0 1.5rem 2rem 1.5rem;
+    padding: 0 1.5rem 1.5rem 1.5rem;
     font-style: italic;
 }
 
-blockquote {
+h4 {
+    position: relative;
     color: white;
     font-family: Raleway;
     padding-left: 4rem;
@@ -99,7 +100,7 @@ blockquote {
 
 ul {
     text-align: center;
-    margin: 20px auto;
+    margin: 1rem;
 }
 
 li {
@@ -116,13 +117,13 @@ footer {
     display: block;
     position: fixed;
     width: 100%;
-    color: #ffffff;
+    color: #95928A;
     text-align: center;
     margin-bottom: 10px;
     bottom: 0;
 }
 
-@media only screen and (max-width: 1125px) {
+@media only screen and (max-width: 1126px) {
     .main {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -131,7 +132,7 @@ footer {
         display: block;
         position: relative;
         width: 100%;
-        color: #ffffff;
+        color: #95928A;
         text-align: center;
         margin-bottom: 10px;
         bottom: 0;
@@ -169,7 +170,7 @@ footer {
         display: block;
         position: relative;
         width: 100%;
-        color: #ffffff;
+        color: #95928A;
         text-align: center;
         margin-bottom: 10px;
         bottom: 0;
