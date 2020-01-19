@@ -196,23 +196,27 @@ footer {
 }
 
 .demo {
+    display: flex;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 3rem;
 }
 
-#demo {
-    font-family: 'Indie Flower', cursive;
-}
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:830px) {
     .demo {
+        display: block;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 35px;
+        font-family: 'Rubik', sans-serif;
+        font-size: 3rem;
     }
+}
+
+.body-index {
+    background-color: aqua;
 }
