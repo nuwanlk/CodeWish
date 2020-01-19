@@ -27,7 +27,7 @@ var x = setInterval(function() {
     if (distance < 0) {
         clearInterval(x); {
             document.getElementById("demo").innerHTML = window.location.href =
-                "loveyou.html";
+                "wish.html";
         }
     }
 }, 1000);
