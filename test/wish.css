@@ -9,4 +9,12 @@ li {
     display: inline;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media only screen and (max-width:600px) {
+    li {
+        display: block;
+    }
 }
