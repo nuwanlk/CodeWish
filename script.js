@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 19, 2020 11:25:00").getTime();
+var countDownDate = new Date("Jan 19, 2020 12:43:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -27,7 +27,7 @@ var x = setInterval(function() {
     if (distance < 0) {
         clearInterval(x); {
             document.getElementById("demo").innerHTML = window.location.href =
-                "wish.html";
+                "loveyou.html";
         }
     }
 }, 1000);
