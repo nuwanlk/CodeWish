@@ -1,0 +1,19 @@
+.navbar img {
+    width: 25%;
+    text-decoration: none;
+}
+
+.navbar ul li {
+    position: relative;
+    color: white;
+    display: inline-block;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+    font-size: 50px;
+}
