@@ -4,66 +4,75 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: black;
-    background-size: cover;
-    background-position: center center;
+.parent {
+    background-color: #010101;
+    height: 100%;
+    display: flex;
 }
 
-.menu li a {
-    text-decoration: none;
+.logo img {
+    height: 60px;
+    width: auto;
+}
+
+.logo {
+    margin: 20px;
+    flex-grow: 5;
+}
+
+.menu {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-evenly;
     color: white;
-    letter-spacing: 1px;
-    display: block;
-    padding: 0 25px;
-    position: relative;
 }
 
-.menu li {
-    list-style: none;
-    display: inline-block;
+.container {
+    background-color: #010101;
+    display: flex;
 }
 
 .main {
-    padding-top: 25px;
+    flex-grow: 4;
 }
 
-nav {
-    position: relative;
-    padding: 10px 20px 10px 10px;
-    text-align: right;
-    z-index: 1;
-    margin: 0 auto;
-    width: calc(100% - 60px);
-}
-
-img {
-    width: 15%;
-    float: left;
-    margin-top: -30px;
-}
-
-.para {
-    position: relative;
-    display: flex;
-    width: 400px;
-    margin-top: 100px;
-    margin-left: 50px;
-    flex-direction: column;
+.image img {
+    flex-grow: 6;
+    height: 505px;
+    width: auto;
 }
 
 .name {
+    font-size: 3rem;
     color: white;
-    position: relative;
-    font-size: 50px;
+    padding: 30px;
+    font-family: "Poppins", sans-serif;
+    line-height: 3rem;
 }
 
-.discription {
+.para {
     color: white;
-    padding-top: 20px;
+    padding: 30px;
+    font-size: 20px;
+    font-family: "Caveat", cursive;
 }
 
-.main_image {
-    position: relative;
-    display: flex;
+.button {
+    padding: 30px;
+}
+
+button {
+    padding: 5px 15px;
+    background-color: aqua;
+    border-radius: 50px;
+    color: black;
+    font-size: medium;
+}
+
+button:hover {
+    background-color: rgb(2, 87, 87);
+    color: white;
+    cursor: pointer;
 }
