@@ -76,3 +76,29 @@ button:hover {
     color: white;
     cursor: pointer;
 }
+
+.drop_content {
+    display: none;
+    color: white;
+    position: absolute;
+}
+
+.menu1:hover .drop_content {
+    display: block;
+}
+
+.menu1:hover .main_item {
+    color: aqua;
+}
+
+.drop_content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    padding: 8px 0 0 0;
+}
+
+.drop_content a:hover {
+    color: aqua;
+}
